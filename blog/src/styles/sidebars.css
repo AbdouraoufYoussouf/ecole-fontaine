@@ -1,0 +1,33 @@
+.sidebar{
+    width: 240px !important;
+    position: fixed !important;
+}
+
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex; 
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: start;
+
+}
+.link:hover .icon-nav {
+    color: gray !important;
+}
+.link:hover {
+    color: gray !important;
+}
+.logo{
+    font-size: 25px;
+    margin: 15px 0;
+    color: yellow;
+}
+
+.active{
+    color: tomato;
+}
+
+
